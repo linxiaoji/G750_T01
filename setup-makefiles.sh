@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=mediatek
-DEVICE=wiko
+DEVICE=g750_t01
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
