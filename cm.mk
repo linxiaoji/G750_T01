@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-$(call inherit-product, device/mediatek/g750_t01/device_g750_t01o.mk)
+$(call inherit-product, device/mediatek/g750_t01/device_g750_t01.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
