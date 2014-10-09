@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo wiko-eng
-add_lunch_combo wiko-userdebug
-add_lunch_combo cm_wiko-userdebug
+add_lunch_combo g750_t01-eng
+add_lunch_combo g750_t01-userdebug
+add_lunch_combo cm_g750_t01-userdebug
