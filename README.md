@@ -5,7 +5,7 @@ android_device_mediatek_g750_t01
 	
 	repo init -u git://github.com/CyanogenMod/android.git -b cm11.0
 
-Now retrieve Wiko PEAX repositories (Should be using local_manifests.xml instead):
+clone我的g750_t01:
 
 	for folder in device kernel vendor;
 	do
@@ -13,9 +13,9 @@ Now retrieve Wiko PEAX repositories (Should be using local_manifests.xml instead
 		git clone "https://github.com/linxiaoji/g750_t01.git" 
 
 
-Now prepare to build
+初始化cm，编译畅玩版
 
 	. build/envsetup.sh
 	brunch g750_t01
 
-And there we are :). Now debugging time ...
+耐心等待编译完整我的4核6小时左右 ...
