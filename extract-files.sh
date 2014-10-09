@@ -6,7 +6,7 @@
 ## $2 specifies the zip file to extract from (default = ../../../${DEVICE}_update.zip)
 
 VENDOR=mediatek
-DEVICE=wiko
+DEVICE=g750_t01
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
