@@ -8,13 +8,14 @@ android_device_mediatek_g750_t01
 
 clone我的g750_t01:
 
-        $ cd cm11
+                cd cm11
 		mkdir -p devices/mediatek/g750_t01;
-		git clone "https://github.com/linxiaoji/g750_t01.git" 
+		git clone https://github.com/linxiaoji/g750_t01.git g750_t01
 
 
 初始化cm，编译畅玩版
         cd ..
+	
 	. ./build/envsetup.sh
 	brunch g750_t01
 
