@@ -18,27 +18,27 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/mediatek/wiko/BoardConfigVendor.mk
+-include vendor/mediatek/g750_t01/BoardConfigVendor.mk
 
 
-LOCAL_FOLDER := device/mediatek/wiko
+LOCAL_FOLDER := device/mediatek/g750_t01
 
 PREBUILT_FOLDER := $(LOCAL_FOLDER)/prebuilt
 
 
 #We should use the current kernel until we can provide some more information when build
 #TARGET_PREBUILT_KERNEL := $(PREBUILT_FOLDER)/kernel
-TARGET_KERNEL_SOURCE := kernel/mediatek/wiko
+TARGET_KERNEL_SOURCE := kernel/mediatek/g750_t01
 TARGET_KERNEL_CONFIG := mediatek-configs
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-linux-androideabi-4.4.x
 TARGET_KERNEL_CUSTOM_TOOLCHAIN_BIN := arm-linux-androideabi-
-TARGET_KERNEL_PROVIDES_BUILD_COMMANDS := kernel/mediatek/wiko/wiko.mk
+TARGET_KERNEL_PROVIDES_BUILD_COMMANDS := kernel/mediatek/g750_t01/g750_t01.mk
 NEEDS_KERNEL_COPY := true
 
 #we need special init.rc because of the sec.ko module to be loaded
 TARGET_RECOVERY_INITRC := $(LOCAL_FOLDER)/recovery/init.rc
 
-KERNEL_MAKE_PARAMETERS := TARGET_PRODUCT=wiko MTK_ROOT_CUSTOM=mediatek/custom 
+KERNEL_MAKE_PARAMETERS := TARGET_PRODUCT=g750_t01 MTK_ROOT_CUSTOM=mediatek/custom 
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_FOLDER)/include
 
