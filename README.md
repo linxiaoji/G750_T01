@@ -7,8 +7,7 @@ android_device_mediatek_g750_t01
 
 clone我的g750_t01:
 
-	for folder in device kernel vendor;
-	do
+
 		mkdir -p devices/mediatek/g750_t01;
 		git clone "https://github.com/linxiaoji/g750_t01.git" 
 
